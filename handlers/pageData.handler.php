@@ -1,59 +1,52 @@
 <?php
 $navList = [
-    ["label" => "Home", "url" => "/"],
-    ["label" => "News", "url" => "/contact"],
-    ["label" => "About Us", "url" => "/about"],
-    ["label" => "Contact Us", "url" => "/contact"],
+    ["label" => "Home", "url" => "/index.php"],
+    ["label" => "Acoustic Guitars", "url" => "/page/acoustic/index.php"],
+    ["label" => "Electric Guitars", "url" => "/page/electric/index.php"],
 ];
 
-$tableColumnNames = [
-    "Product Name",
-    "Color",
-    "Category",
-    "Price",
-];
 
 $productList = [
     [
-        "name" => "Yamaha F310",
-        "image" => "yamaha-f310.jpg",
+        "name" => "Taylor 317E",
+        "image" => "Taylor.png",
         "description" => "A popular acoustic guitar with a spruce top and great playability.",
         "category" => "Acoustic",
-        "price" => 199,
+        "price" => 1299,
     ],
     [
-        "name" => "Fender CD-60S",
-        "image" => "fender-cd60s.jpg",
+        "name" => "Gibson Hummingbird Studio",
+        "image" => "AcGibson.png",
         "description" => "Classic dreadnought body, solid spruce top, and rolled fingerboard edges.",
+        "category" => "Acoustic",
+        "price" => 529,
+    ],
+    [
+        "name" => "Epiphone AJ-100CE",
+        "image" => "AcEpiphone.png",
+        "description" => "Strong projection and comfortable playability.",
         "category" => "Acoustic",
         "price" => 229,
     ],
     [
         "name" => "Gibson Les Paul Standard",
-        "image" => "gibson-les-paul.jpg",
+        "image" => "GibLesPaul.png",
         "description" => "Iconic electric guitar known for its rich tone and sustain.",
         "category" => "Electric",
         "price" => 2499,
     ],
     [
-        "name" => "Fender Stratocaster",
-        "image" => "fender-stratocaster.jpg",
-        "description" => "Versatile electric guitar with three single-coil pickups.",
+        "name" => "Fender Telecaster",
+        "image" => "FenderTele.png",
+        "description" => "Versatile electric guitar with two single-coil pickups.",
         "category" => "Electric",
         "price" => 1399,
     ],
     [
-        "name" => "Ibanez RG550",
-        "image" => "ibanez-rg550.jpg",
-        "description" => "High-performance electric guitar, perfect for shredders.",
+        "name" => "Fender JazzMaster",
+        "image" => "JazzMaster.png",
+        "description" => "High-performance electric guitar, perfect for blues and rock.",
         "category" => "Electric",
         "price" => 999,
     ],
 ];
-
-$accounts = array(
-    "https://facebook.com",
-    "https://instagram.com",
-    "https://gmail.com",
-
-);
