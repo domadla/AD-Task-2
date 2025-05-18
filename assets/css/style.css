@@ -78,3 +78,14 @@ nav ul li a:hover {
   transform: none;
   overflow-x: hidden;
 }
+
+.homepage-main {
+  max-width: 600px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 24px 16px;
+}
+
+.homepage-main p {
+  text-align: center;
+}
