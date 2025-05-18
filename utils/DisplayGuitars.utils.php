@@ -1,31 +1,15 @@
 <?php
-function convertValueToCurrency($value): string
+function displayElectricGuitars($productList, $imgBasePath = 'assets/img/')
 {
-    if (!is_numeric($value)) {
-        echo "<script type='text/javascript'>alert('It should be number');</script>";
-    }
-
-    $overThousands = floor($value / 1000000);
-    $overHundreds = floor($value / 1000);
-    $underHundreds = $value % 1000;
-    $decimals = $value % 1;
-
-    $converted = "";
-    if ($overThousands > 0) {
-        $converted .= $overThousands . ",";
-    }
-    if ($overHundreds > 0) {
-        $converted .= $overHundreds . ",";
-    }
-    if ($underHundreds > 0) {
-        $converted .= $underHundreds . ".";
-    }
-    if ($decimals > 0) {
-        $converted .= $decimals;
-    } else {
-        $converted .= "00";
-    }
-
-    return "$ " . $converted;
-
+    $electricGuitars = array_filter($productList, function ($guitar) {
+        return isset($guitar['category']) && $guitar['category'] === 'Electric';
+    });
+    displayGuitarCards($electricGuitars, $imgBasePath);
+}
+function displayAcousticGuitars($productList, $imgBasePath = 'assets/img/')
+{
+    $AcousticGuitars = array_filter($productList, function ($guitar) {
+        return isset($guitar['category']) && $guitar['category'] === 'Acoustic';
+    });
+    displayGuitarCards($AcousticGuitars, $imgBasePath);
 }

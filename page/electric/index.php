@@ -1,5 +1,6 @@
 <?php
 require BASE_PATH . '/vendor/autoload.php';
+require BASE_PATH . '/utils/DisplayGuitars.utils.php';
 
 require_once BASE_PATH . '/handlers/pageData.handler.php';
 require_once BASE_PATH . '/components/cards/displaycard.component.php';
@@ -15,10 +16,7 @@ navHeader($navList);
 
 <section>
     <?php
-    $electricGuitars = array_filter($productList, function ($guitar) {
-        return isset($guitar['category']) && $guitar['category'] === 'Electric';
-    });
-    displayGuitarCards($electricGuitars, 'assets/img/');
+    displayElectricGuitars($productList, 'assets/img/');
     ?>
 </section>
 
