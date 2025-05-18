@@ -5,9 +5,9 @@ function navHeader($navList)
     <header>
         <nav>
             <ul>
-                <li><a href="/index.php">Home</a></li>
-                <li><a href="/page/acoustic/index.php">Acoustic Guitars</a></li>
-                <li><a href="/page/electric/index.php">Electric Guitars</a></li>
+                <?php foreach ($navList as $item): ?>
+                    <li><a href="<?php echo htmlspecialchars($item['url']); ?>"><?php echo htmlspecialchars($item['label']); ?></a></li>
+                <?php endforeach; ?>
             </ul>
         </nav>
     </header>
