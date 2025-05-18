@@ -15,68 +15,39 @@ $tableColumnNames = [
 
 $productList = [
     [
-        "productName" => "Apple MacBook Pro 17",
-        "details" => [
-            "color" => ["Silver", "Black"],
-            "category" => "Laptop",
-            "price" => 2999,
-        ],
+        "name" => "Yamaha F310",
+        "image" => "yamaha-f310.jpg",
+        "description" => "A popular acoustic guitar with a spruce top and great playability.",
+        "category" => "Acoustic",
+        "price" => 199,
     ],
     [
-        "productName" => "Microsoft Surface Pro",
-        "details" => [
-            "color" => ["White", "Black"],
-            "category" => "Laptop",
-            "price" => 1999,
-        ],
+        "name" => "Fender CD-60S",
+        "image" => "fender-cd60s.jpg",
+        "description" => "Classic dreadnought body, solid spruce top, and rolled fingerboard edges.",
+        "category" => "Acoustic",
+        "price" => 229,
     ],
     [
-        "productName" => "Dell XPS 13",
-        "details" => [
-            "color" => ["Silver", "White"],
-            "category" => "Laptop",
-            "price" => 1499,
-        ],
+        "name" => "Gibson Les Paul Standard",
+        "image" => "gibson-les-paul.jpg",
+        "description" => "Iconic electric guitar known for its rich tone and sustain.",
+        "category" => "Electric",
+        "price" => 2499,
     ],
     [
-        "productName" => "HP Spectre x360",
-        "details" => [
-            "color" => ["Black", "Blue"],
-            "category" => "Laptop",
-            "price" => 1599,
-        ],
+        "name" => "Fender Stratocaster",
+        "image" => "fender-stratocaster.jpg",
+        "description" => "Versatile electric guitar with three single-coil pickups.",
+        "category" => "Electric",
+        "price" => 1399,
     ],
     [
-        "productName" => "Lenovo ThinkPad X1 Carbon",
-        "details" => [
-            "color" => ["Black"],
-            "category" => "Laptop",
-            "price" => 1799,
-        ],
-    ],
-    [
-        "productName" => "Asus ROG Zephyrus G14",
-        "details" => [
-            "color" => ["Gray", "White"],
-            "category" => "Gaming Laptop",
-            "price" => 2199,
-        ],
-    ],
-    [
-        "productName" => "Acer Swift 3",
-        "details" => [
-            "color" => ["Silver"],
-            "category" => "Laptop",
-            "price" => 999,
-        ],
-    ],
-    [
-        "productName" => "Google Pixelbook Go",
-        "details" => [
-            "color" => ["Black", "Pink"],
-            "category" => "Chromebook",
-            "price" => 849,
-        ],
+        "name" => "Ibanez RG550",
+        "image" => "ibanez-rg550.jpg",
+        "description" => "High-performance electric guitar, perfect for shredders.",
+        "category" => "Electric",
+        "price" => 999,
     ],
 ];
 
