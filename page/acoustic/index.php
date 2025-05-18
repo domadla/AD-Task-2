@@ -16,7 +16,7 @@ navHeader($navList);
 
 <section>
     <?php
-    $electricGuitars = array_filter($productList, function ($guitar) {
+    $AcousticGuitars = array_filter($productList, function ($guitar) {
         return isset($guitar['category']) && $guitar['category'] === 'Acoustic';
     });
     displayGuitarCards($AcousticGuitars, 'assets/img/');
