@@ -14,9 +14,7 @@ head('SixthString');
 navHeader($navList);
 ?>
 
-<section class="grid grid-cols-3">
-    <?php displayGuitarCards($productList); ?>
-</section>
+
 
 <?php
 footer();
