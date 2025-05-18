@@ -1,13 +1,21 @@
 <?php
-function displayGuitarCards($guitarList, $imgBasePath = '')
+function displayGuitarCards($guitarList, $imgBasePath = 'assets/img/')
 {
     foreach ($guitarList as $guitar):
-        $imgSrc = $imgBasePath . $guitar['image'];
+        $imgSrc = isset($guitar['image']) ? $imgBasePath . $guitar['image'] : null;
 ?>
-        <div class="guitar-box" style="max-width: 400px; margin: 20px auto;">
-            <img src="<?php echo htmlspecialchars($imgSrc); ?>" alt="<?php echo htmlspecialchars($guitar['name']); ?>" style="width:100%; border-radius: 8px; margin-bottom: 10px;">
-            <h3 style="color: #ffcc00; margin: 0;"><?php echo htmlspecialchars($guitar['name']); ?></h3>
-            <p style="color: #cccccc;"><?php echo htmlspecialchars($guitar['description']); ?></p>
+        <div class="guitar-card-box">
+            <?php if ($imgSrc): ?>
+                <img class="guitar-card-img" src="<?php echo htmlspecialchars($imgSrc); ?>" alt="<?php echo htmlspecialchars($guitar['name'] ?? 'Guitar'); ?>">
+            <?php endif; ?>
+            <h3 class="guitar-card-title"><?php echo htmlspecialchars($guitar['name'] ?? ''); ?></h3>
+            <p class="guitar-card-desc"><?php echo htmlspecialchars($guitar['description'] ?? ''); ?></p>
+            <?php if (isset($guitar['category'])): ?>
+                <p class="guitar-card-meta"><strong>Category:</strong> <?php echo htmlspecialchars($guitar['category']); ?></p>
+            <?php endif; ?>
+            <?php if (isset($guitar['price'])): ?>
+                <p class="guitar-card-meta"><strong>Price:</strong> $<?php echo htmlspecialchars($guitar['price']); ?></p>
+            <?php endif; ?>
         </div>
 <?php
     endforeach;
