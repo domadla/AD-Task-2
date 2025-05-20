@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/domadla/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/Sixth_String.png" alt="Sixth String" width="130" height="100">
   </a>
@@ -59,17 +59,43 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-<!-- The following are just sample -->
 
-Description of the project in details.
+Header:
+
+- Website title: "Sixth String".
+  - Navigation bar with links to:
+    - Home.
+    - Acoustic Guitars.
+    - Electric Guitars.
+
+Main Content:
+
+Home page:
+
+- Displays introduction and welcome message.
+
+Acoustic Guitars page:
+
+- Lists acoustic guitars with images, names, and descriptions.
+
+Electric Guitars page:
+
+- Lists electric guitars with images, names, and descriptions.
+
+Footer:
+
+- Displays copyright information.
 
 ### Key Components
 
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Authentication & Authorization
-- CRUD Operations for Invetory System
+- Navigation Bar
+- Header
+- Product Data Handler
+- Card Display Component
+- Display Utilities
 
 ### Technology
 
@@ -79,24 +105,7 @@ Description of the project in details.
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-
-#### Framework/Library
-
-![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=for-the-badge&logo=codeigniter&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
-
-#### Databases
-
-![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-#### Deployment
-
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -157,11 +166,11 @@ AD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
-
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title          | Purpose       | Link                                                      |
+| -------------- | ------------- | --------------------------------------------------------- |
+| FenderTele.png | Display Image | https://www.fendercustomshop.com/1954-telecaster/         |
+| GibLesPaul.png | Display Image | https://www.gibson.com/en-US/Electric-Guitar/Les-Paul     |
+| JazzMaster.png | Display Image | https://www.fender.com/en-US/electric-guitars/jazzmaster/ |
+| AcGibson.png   | Display Image | https://www.gibson.com/en-US/Acoustic-Guitar/             |
+| Taylor.png     | Display Image | https://www.taylorguitars.com/guitars/acoustic/814ce      |
+| AcEpiphone.png | Display Image | https://www.epiphone.com/en-US/Acoustic-Guitar/           |
