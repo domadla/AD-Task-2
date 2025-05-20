@@ -62,11 +62,10 @@
 
 Header:
 
-- Website title: "Sixth String".
-  - Navigation bar with links to:
-    - Home.
-    - Acoustic Guitars.
-    - Electric Guitars.
+- Navigation bar with links to:
+  - Home.
+  - Acoustic Guitars.
+  - Electric Guitars.
 
 Main Content:
 
